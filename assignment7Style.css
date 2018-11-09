@@ -1,0 +1,51 @@
+table {
+    font-size: 18px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:none;
+    /* This is how I center the Table, works with most browsers. */
+}
+
+td, th {
+    padding-bottom: 1em; /* adds space under cells */ 
+    border: none;
+}
+
+body {
+    background: #515261;
+    font-family: Courier, monospace; 
+    color: #ffffff; 
+    font-size: 110%;
+}
+
+.opener, #ticket, #dice {
+    border-style: groove;
+    border-color: gold;
+    background-color: #868799;
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: goldenrod;
+}
+
+/* visited link */
+a:visited {
+    color: floralwhite;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgoldenrod;
+}
+
+/* selected link */
+a:active {
+    color: lightgoldenrodyellow;
+}
+
+#left { 
+    text-align: center;
+}
